@@ -1,6 +1,6 @@
-def imageName="192.168.44.44:8082/docker_registry/backend"
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def imageName="rgalan94/backend"
+def dockerRegistry=""
+def registryCredentials="dockerhub"
 
 pipeline {
     agent {
